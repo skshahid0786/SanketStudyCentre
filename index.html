@@ -86,21 +86,20 @@ ga('send', 'pageview');
       </div>
     <!-- header section end -->
     <!-- banner section start -->
- <div class="col-lg-6">
+         <div class="col-lg-6">
               <div class="input_bt">
                      <img src="images/banner.png" >                
              </div>
             </div>
-
-
-        
+      
+      
     <div class="banner_section layout_padding">
       <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          </ol>
+       </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
@@ -122,7 +121,7 @@ ga('send', 'pageview');
                   <div class="read_bt"><a href="#">Read More</a></div>
                 </div>
                 <div class="col-md-6">
-                  <img src="images/img-1.png" class="imgage_1">
+                  <img src="images/banner.png" class="imgage_1">
                 </div>
               </div>
             </div>
@@ -197,18 +196,42 @@ Your free Seat</h1>
               <div class="col-md-6">
                 <h1 class="contact_taital">Contact Us</h1>
                 <div class="mail_section_1">
-                  <input type="text" class="mail_text" placeholder="Name" name="text">
-                  <input type="text" class="mail_text" placeholder="Email" name="text">
-                  <input type="text" class="mail_text" placeholder="Phone Number" name="text">
-                  <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                  <div class="send_bt"><a href="#">SEND</a></div>
-                </div>
+               
+                    
+     <div class="call_section">
+              <form>
+ <div class="call_section">
+    <div class="form-container">
+      <div class="input-group">
+        <!-- Input field for name -->
+        <input type="text" id="nameInput" class="mail_text" placeholder="Enter your name">
+
+        <!-- Input field for mobile number -->
+        <input type="tel" id="mobileInput" class="mail_text" placeholder="Enter your mobile number">
+      </div>
+<div class="mail_section_1">
+   <div class="col-md-6">
+  
+      <!-- Button to trigger WhatsApp redirection -->
+                    
+     <div class="call_section">
+      <a id="sendButton" class="subscribe_bt" href="#">SEND</a>
+    </div>
               </div>
+           </div>
+         </div>
+       </div>
+            </form>
+              </div>
+              </div>
+              
+          </div>
+        
               <div class="col-md-6">
                 <div class="map_section">
                   <div class="map-responsive">
-                         <iframe width="523" height="403" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=523&amp;height=403&amp;hl=en&amp;q=2nd%20Floor,%20Mangaldas%20complex,%20+(No)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://api.whatsapp.com/send?phone=+919723649165&text=hello i want to book a seat'>Sanket Study Centre</a>
-                    </div>
+                    <iframe width="523" height="403" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=523&amp;height=403&amp;hl=en&amp;q=2nd%20Floor,%20Mangaldas%20complex,%20+(No)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://api.whatsapp.com/send?phone=+919723649165&text=hello i want to book a seat'>Sanket Study Centre</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -222,7 +245,7 @@ Your free Seat</h1>
         <div class="call_main">
           <div class="row">
             <div class="col-sm-6 col-lg-3">
-              <div class="call_text"><a href="tel:+918735965695"><img src="images/call-icon-1.png"><span class="padding_left_0">Call Now  +91 97236 49165</span></a></div>
+              <div class="call_text"><a href="tel:+918735965695"><img src="images/call-icon-1.png"><span class="padding_left_0">Call Now  +91 87359 65695</span></a></div>
             </div>
             <div class="col-sm-6 col-lg-3">
                <div class="call_text"><a href="mailto:reshamwalabipin@yahoo.co.in"><img src="images/mail-icon-1.png"><span class="padding_left_0">reshamwalabipin@yahoo.co.in</span></a></div>
@@ -247,15 +270,13 @@ Your free Seat</h1>
               <p class="jonson_text">Step into our tuition center and discover a supportive learning environment where students receive personalized attention and expert instruction. Our experienced educators are committed to helping students succeed academically, providing engaging lessons and valuable guidance every step of the way. Join us and embark on a journey of growth, confidence, and academic achievement.</p>
               <div class="social_icon">
                 <ul>
-                  <li><a href="https://www.facebook.com/SanketStudyCentre"><img src="images/fb-icon.png"></a></li>
-                  
+                  <li><a href="https://www.facebook.com/SanketStudyCentre"><img src="images/fb-icon.png"></a></li>                  
                   <li><a href="https://youtube.com/@BIPINRESHAMWALA?si=P9GmZqRdUBa9ckXI"><img src="images/Youtube-icon.png"></a></li>
                   <li><a href="https://www.instagram.com/explore/locations/389898358056504/sanket-study-centre/"><img src="images/instagram-icon.png"></a></li>
                 </ul>
               </div>
             </div>
-          </div>
-          
+          </div>          
         </div>
       </div>
     </div>
@@ -279,5 +300,39 @@ Your free Seat</h1>
     <!-- javascript --> 
     <script src="js/owl.carousel.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
+
+     
+  <script>
+    // Get the input fields and send button
+    const nameInput = document.getElementById('nameInput');
+    const mobileInput = document.getElementById('mobileInput');
+    const sendButton = document.getElementById('sendButton');
+
+    // Add click event listener to the send button
+    sendButton.addEventListener('click', redirectToWhatsApp);
+
+    // Function to redirect to WhatsApp with mixed message
+    function redirectToWhatsApp(event) {
+      // Prevent the default behavior of the link click
+      event.preventDefault();
+
+      // Get the input values
+      const name = nameInput.value;
+      const mobile = mobileInput.value;
+
+      // Mix the name and mobile number
+      const mixedMessage = `${name} - ${mobile}`;
+
+      // Encode the mixed message for URL
+      const encodedMessage = encodeURIComponent(mixedMessage);
+
+      // Construct the WhatsApp URL with the encoded message
+      const whatsappURL = `https://api.whatsapp.com/send?phone=+919723649165&text=${encodedMessage}`;
+
+      // Redirect to WhatsApp
+      window.location.href = whatsappURL;
+    }
+  </script>
+
 </body>
 </html>
